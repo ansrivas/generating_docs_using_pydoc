@@ -6,5 +6,6 @@ Create docstrings for the functions, in your python file , in our case "sample.p
 then execute this command to generate "filename.html" as the doc file
 
 //Notice there is no extension in filename = "sample"
-pydow -w sample
+
+pydoc -w sample
 
