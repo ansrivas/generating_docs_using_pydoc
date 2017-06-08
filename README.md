@@ -13,13 +13,13 @@ pydoc -w sample
 
 ### With Sphinx:
 
-1. pip install sphinx sphinx_rtd_theme
+1. `pip install sphinx sphinx_rtd_theme`
 
-2. mkdir docs myprojdir
+2. `mkdir docs myprojdir`
 
-3. cd docs
+3. `cd docs`
 
-4. sphinx-quickstart
+4. `sphinx-quickstart`
 
 5. Hit `yes` for everything and fill in the required project details.
 
