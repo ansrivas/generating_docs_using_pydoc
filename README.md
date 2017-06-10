@@ -36,3 +36,20 @@ pydoc -w sample
     make html && \
     xdg-open build/html/index.html
     ```
+    
+7. To use markdown as well:
+
+    `pip install commonmark recommonmark`
+    
+    and inside `conf.py`
+    
+    
+    ```
+    source_parsers = {
+    '.md': 'recommonmark.parser.CommonMarkParser',
+    }
+    source_suffix = ['.rst', '.md']
+    ```
+    
+    And then add the markdown files inside `docs/source` we have `example.md` and `example2.md`.
+    Include these two files in index.rst so that they can be parsed.
