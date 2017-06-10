@@ -11,6 +11,7 @@ Welcome to myproject's documentation!
    :caption: Contents:
 
    example
+   example2
 
 Indices and tables
 ==================
