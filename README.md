@@ -39,7 +39,7 @@ pydoc -w sample
     
 7. To use markdown as well:
 
-    `pip install commonmark recommonmark`
+    `pip install recommonmark`
     
     and inside `conf.py`
     
